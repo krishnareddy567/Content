@@ -1,0 +1,37 @@
+FAST API Notes:
+----------------------
+
+#Create virtual environment
+python3 -m venv fastapienv
+
+
+#Active Virtual Environment
+fastapienv/Scripts/activate.bat
+or 
+source fastapienv/bin/activate
+
+pip install fastapi
+pip install uvicorn[standard]
+
+#To deactivate virtual Environment
+deactivate
+
+
+Source_code repo
+git clone https://github.com/codingwithroby/fastapi-the-complete-course.git
+
+pip install -r requirements.txt
+
+To run the fast api application:
+uvicorn books:app --reload
+
+Path Parameters
+- Dynamic paramters
+
+Query parameters
+
+ASGI - Asynchronous Server Gateway Interface.
+
+Type hinting.
+
+division(a:int, b:int) -> float
